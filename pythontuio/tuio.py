@@ -19,8 +19,8 @@ from pythonosc.osc_server import BlockingOSCUDPServer
 
 from pythonosc.osc_message_builder import OscMessageBuilder
 from pythonosc.osc_bundle_builder import OscBundleBuilder
-from pythontuio.const import TUIO_BLOB, TUIO_CURSOR, TUIO_OBJECT
-from pythontuio.dispatcher import TuioDispatcher
+from .const import TUIO_BLOB, TUIO_CURSOR, TUIO_OBJECT
+from .dispatcher import TuioDispatcher
 
 
 
